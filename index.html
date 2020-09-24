@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   <h1>First JS code</h1>
-   <script>
-   function sayHello(name) {
-       console.log("Hello" + name);
-   }
-   sayHello("Janne");
+  </head>
+  <body>
+    <h1>First JS code</h1>
+    <script>
+      /*function summera(tal1, tal2) {
+         return tal1 + tal2;
+       }
+       let summa = summera(5, 20);
 
+       function concatStrings(sumAnswer, sumString) {
+         console.log(sumString + sumAnswer);
+       }
+       concatStrings(summa, "Summan blir: ");*/
 
-</script>
+      //övning
+      /*
+        - skapa en funktion som tar 2 argument - heltal
+        -returnera summan av talen
+        -spara retursvaret i en variabel
+        -skapa en funktion som tar 2 arg:
+        *retursvaret
+        *en sträng "summan blir: "
+        *-funktion ska logga i console retursvaret och sträng*/
 
-
-
-</body>
+      //object
+      let cat = {
+        name: "fluffy",
+        paralyzed: false,
+        age: 20,
+        climb(where) {
+          console.log("The cat is climbing the " + where);
+        },
+        owner: {
+          name: "Janne",
+          age: 49,
+        },
+      };
+      console.log("cat:", cat);
+    </script>
+  </body>
 </html>
